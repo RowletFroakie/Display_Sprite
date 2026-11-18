@@ -6,8 +6,8 @@ import os
 
 os.chdir(os.path.dirname(os.path.abspath(os.path.join(__file__, os.pardir))))
 
-FPS = 72
-animation_FPS_target = 24
+FPS = 60
+animation_FPS_target = 30
 
 perspective = input("Front, Back, Footprints or Icon: ").lower()
 
